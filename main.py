@@ -16,7 +16,7 @@ def write_data():
         password_sp_info = password_sp.get()
         confirm_password_sp_info = confirm_sp_password.get()
 
-        # checks password and confirm password is same or not
+        #checks password and confirm password is same or not
         if (password_sp_info == confirm_password_sp_info):
             Label(screen_sp,
                   text="Registration Successful",
