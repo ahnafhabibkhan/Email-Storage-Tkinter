@@ -1,7 +1,7 @@
 from tkinter import *
 from tkinter import StringVar
 import re
-
+import reprlib
 # writing information on output file starts
 def write_data():
     # checks email pattern
